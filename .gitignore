@@ -1,0 +1,11 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables (for your upcoming API keys)
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
