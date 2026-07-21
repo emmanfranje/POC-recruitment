@@ -6,7 +6,7 @@ Created with initial HR interviews in mind, this is a stateful candidate screeni
 ## 💻Current Core Features
 ### Document Parsing
 - Uses Microsoft MarkItDown library to cleanly extract layout heirarchies, tables and lists from a candidate PDF resume into clean markdown.
-- The parsed profile is fed into Gemini to generate 5 non-generic, hihg-level HR allignment questions and pairs them with an evaluation criteria.
+- The parsed profile is fed into Gemini to generate 5 non-generic, high-level HR allignment questions and pairs them with an evaluation criteria.
 
 ### Stateful Conversational Interaction
 - The candidate responds by using the microphone. The client captures the input as ```.webm``` chunks and streams them to the backend.
